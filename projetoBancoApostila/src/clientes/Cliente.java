@@ -7,6 +7,8 @@ public class Cliente {
 	private int idade;
 	private String cpf;
 	
+	/* valida cpf */
+	
 	public void mudaCPF(String cpf) {
 		validaCPF(cpf);
 		this.cpf= cpf;
