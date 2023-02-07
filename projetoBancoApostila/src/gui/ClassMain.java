@@ -1,5 +1,7 @@
 package gui;
 
+import javax.swing.JOptionPane;
+
 import clientes.Cliente;
 import contas.Conta;
 import funcionarios.Funcionarios;
@@ -27,6 +29,7 @@ public class ClassMain {
 		Gerente gerente = new Gerente();
 		gerente.setSalario(5000.00);
 		System.out.println(gerente.getBonificacaoSalario());
+		
 
 		Funcionarios funcionario = new Funcionarios();
 		funcionario.setSalario(1000.00);
